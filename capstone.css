@@ -1,0 +1,535 @@
+
+* {
+    letter-spacing: 1px;
+    font-family:  "Verdana", sans-serif;   
+
+}
+
+img {
+    border-radius: 3px;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+a:hover {
+    color: rgb(175, 174, 174);
+    transition: 70ms linear 70ms;
+
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+
+}
+
+
+
+/* nav bar start*/
+
+
+
+header {
+    height: 4rem;
+    max-width: 100%;
+    background-color: hsl(71, 0%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -1.18rem;
+
+}
+
+.navleft {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.imglogo {
+    height: 2.6rem;
+    padding-left: -1rem;
+
+}
+
+.colmar {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color:hsl(51, 3%, 17%);
+
+}
+
+.academy {
+    font-size: 1.9rem;
+    color: hsl(30, 7%, 52%)
+
+}
+
+.navright {
+    display: inline-flex;
+    align-items: center;
+
+}
+
+.allmenuoptions {
+    padding-right: 1rem;
+
+}
+
+
+.menuoption {
+    padding-right: 1.8rem;
+    font-size: .9rem;
+
+}
+
+
+/*body start */
+
+
+
+.firstblock {
+    background-color: hsl(0, 0%, 85%);
+    display: flex;
+
+}
+
+.firstbannerimg {
+    width: 60%;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.8rem;
+    margin-bottom: 2rem;
+
+}
+
+.firstblockrightside {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.learnsomething {
+    font-size: 300%;
+    color: rgba(41, 39, 39, 0.904);
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    
+}
+
+.lorem {
+    margin-bottom: 4rem;
+    font-size: 1.1rem;
+    
+}
+
+#startbutton {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgba(41, 39, 39, 0.904);
+    margin-right: -.5rem;
+    margin-left: -.5rem;
+    margin-top: -.2rem;
+    margin-bottom: -.2rem;
+    padding: .8rem;
+    border-radius: 2.3px;
+
+}
+
+#startbutton:hover {
+    background-color: rgba(170, 170, 170, 0.596);
+    transition: 100ms linear 100ms;
+    
+}
+
+
+/* second block */
+
+
+.secondblockmain {
+    display: flex;
+    background-color: rgb(245, 245, 245);
+}
+
+.secondblock {
+    display: block;
+    max-width: 60%;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    
+}
+
+.secondbannerimg {
+    margin-left: 1.5rem;
+    margin-right: 1.8rem;
+    margin-bottom: .1rem;
+    width: 100%;
+}
+
+.itdoesnthurt {
+    font-size: 2.4rem;
+    color: rgba(41, 39, 39, 0.904);
+    font-weight: bolder;
+    margin-left: 1.5rem;
+
+}
+
+.curabitur {
+    font-size: .95rem;
+    font-weight: 100;
+    margin-left: 1.5rem;
+    color: rgba(92, 92, 92, 0.904);
+}
+
+.emmanual {
+    margin-left: 1.5rem;
+    color: rgba(92, 92, 92, 0.904);
+    margin-top: 2rem;
+    margin-bottom: 3.5rem;
+    font-size: .7rem;
+
+}
+
+
+/* right side of second block */
+
+
+.secondblockrightside {
+    display: flex;
+    flex-flow: wrap column;
+    width: 40%;
+
+}
+
+.block1second {
+    display: flex;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    padding-top: .91rem;
+    padding-left: 1rem;
+    border-top: 1px solid  hsl(0, 0%, 85%);
+    border-left: 1px solid  hsl(0, 0%, 85%);
+    border-bottom: 1px solid  hsl(0, 0%, 85%);
+    border-top-left-radius: 10px;
+
+}
+
+.block1secondwords, .block2secondwords, .block3secondwords {
+    display: block;
+    width: 65%;
+    padding-left: 1.2rem;
+    padding-right: 2.5rem;
+    
+}
+
+.orientationdpic, .campuspic, .lecturepic  {
+    width: 35%;
+    border-radius: 10px;
+
+}
+
+.orientationdate, .ourcampusblock, .ourguest {
+    color: rgba(41, 39, 39, 0.904);
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.date, .findwhichcampus, .joinkeynote {
+    color: rgba(92, 92, 92, 0.904);
+    font-size: .9rem;
+    font-weight: 100;
+
+}
+
+.readmore1 {
+    color: rgba(44, 76, 165, 0.904);
+    font-size: .8rem;
+
+}
+
+.block2second {
+    display: flex;
+    padding-top: .91rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid  hsl(0, 0%, 85%);
+
+}
+
+.block3second {
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    border-top: 1px solid  hsl(0, 0%, 85%);
+    border-bottom: 1px solid  hsl(0, 0%, 85%);
+    border-left: 1px solid  hsl(0, 0%, 85%);
+    border-bottom-left-radius: 10px;
+
+}
+
+
+/* third block */
+
+
+.thirdblock {
+    background-color: hsl(0, 0%, 85%);
+    margin-top: -3rem;
+
+}
+
+.startlearning {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    font-weight: bolder;
+    color: rgba(41, 39, 39, 0.904);
+
+}
+
+.thirdblock1strow {
+    display: inline-flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    max-width: 100%;
+
+}
+
+.rowpic {
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  
+}
+
+.courses {
+    margin-bottom: .5rem;
+
+}
+
+.rowtitles {
+    color: rgba(41, 39, 39, 0.904);
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.rowwords {
+    padding-left: 1rem;
+
+}
+
+.courses, .listofcourses {
+    font-size: .85rem;
+    font-weight: 100;
+    color: rgba(92, 92, 92, 0.904);
+
+}
+
+.row1 {
+    margin-right: 2rem;
+    width: 50%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+
+}
+
+.row2 {
+    margin-right: 2rem;
+    width: 50%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+
+}
+
+.row3 {
+    width: 50%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+
+}
+
+.thirdblock2ndrow {
+    display: inline-flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+
+}
+
+
+/* fourth block */
+
+
+.thesis {
+    background-color: rgb(245, 245, 245);
+    justify-content: center;
+    display: flex;
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    font-size: 2.4rem;
+    font-weight: bolder;
+    color: rgba(41, 39, 39, 0.904);
+
+}
+
+.fourthblockmain {
+    display: flex;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 2rem;
+
+}
+
+.fourthblockbody {
+    display: block;
+    max-width: 60%;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    
+}
+
+.secondbannerimg {
+    margin-left: 1.5rem;
+    margin-right: 1.8rem;
+    margin-bottom: .1rem;
+    max-width: 100%;
+
+}
+
+.reimagineurban {
+    font-size: 2.4rem;
+    color: rgba(41, 39, 39, 0.904);
+    font-weight: bolder;
+    margin-left: 1.5rem;
+
+}
+
+.curabitur2 {
+    font-size: .95rem;
+    font-weight: 100;
+    margin-left: 1.5rem;
+    color: rgba(92, 92, 92, 0.904);
+
+}
+
+
+/* fourth block right side */
+
+
+.block4blockrightside {
+    display: flex;
+    flex-flow: wrap column;
+    width: 40%;
+
+}
+
+.block4second {
+    display: flex;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-top: 1px solid  hsl(0, 0%, 85%);
+    border-left: 1px solid  hsl(0, 0%, 85%);
+    border-top-left-radius: 10px;
+
+}
+
+.block4secondsecond {
+    display: flex;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    border-top: 1px solid  hsl(0, 0%, 85%);
+    border-left: 1px solid  hsl(0, 0%, 85%);
+    border-bottom: 1px solid hsl(0, 0%, 85%);
+    border-bottom-left-radius: 10px;
+}
+
+.block4secondwords{
+    display: block;
+    width: 65%;
+    padding-left: 1.2rem;
+    padding-right: 2.5rem;
+    
+}
+
+.fismapic, .nycpic{
+    width: 35%;
+    border-radius: 10px;
+    
+}
+
+.fisma, .nowandthen {
+    color: rgba(41, 39, 39, 0.904);
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+
+.designer, .research {
+    color: rgba(92, 92, 92, 0.904);
+    font-size: .9rem;
+    font-weight: 100;
+
+}
+
+
+/* footer */
+
+
+
+footer {
+    font-size: .8rem;
+    font-weight: 100;
+    color: rgba(92, 92, 92, 0.904);
+
+}
+
+.completefooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .8rem;
+    padding-bottom: 1rem;
+    
+}
+
+.footerleft {
+    display: flex;
+    padding-left: 1.5rem;
+    
+}
+
+.footerright {
+    display: flex;
+
+}
+
+
+.contact, .aboutus, .terms {
+    padding-right: 1rem;
+
+}
+
+.privacy {
+    padding-right: 1.5rem;
+   
+}
